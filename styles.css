@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.header{
+  background-color: #7575fe;
+  color: #fff;
+  grid-column:2 / 4;
+}
+
+.sidebar{
+  background-color: #fa6565;
+  color: #fff;
+  height: 100vh;
+  grid-column-start: 1;
+  grid-row: 1 / 4;
+}
+
+.projects-container{
+  background-color: rgb(88, 243, 88);
+  color: #fff;
+}
+
+.rightbar{
+  background-color: #fefe69;
+  color: #fff;
+}
+
+img [src]{
+  background: #fff;
+}
+
+svg{
+  width: 50px;
+}
+
+path{
+  width: 10px;
+  fill: #fff;
+}
